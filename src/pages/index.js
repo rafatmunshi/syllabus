@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./styles.module.css";
+import GitHubButton from "react-github-btn";
 
 function Home() {
   const context = useDocusaurusContext();
@@ -22,6 +23,28 @@ function Home() {
       <main>
         <section className={styles.features}>
           <div className="container">
+            <div className="centre">
+              <GitHubButton
+                href="https://github.com/codeyourfuture"
+                data-color-scheme="no-preference: light; light: light; dark: dark;"
+                data-size="large"
+                data-show-count="true"
+                aria-label="Follow @codeyourfuture on GitHub"
+              >
+                Follow @codeyourfuture
+              </GitHubButton>
+              <GitHubButton
+                href="https://github.com/codeyourfuture/syllabus"
+                data-color-scheme="no-preference: light; light: light; dark: dark;"
+                data-icon="octicon-star"
+                data-size="large"
+                data-show-count="true"
+                aria-label="Star codeyourfuture/syllabus on GitHub"
+              >
+                Star on Github
+              </GitHubButton>
+            </div>
+            <br />
             <p>
               This is the syllabus and course material for{" "}
               <a href="https://codeyourfuture.io/">CodeYourFuture</a> (CYF), a
