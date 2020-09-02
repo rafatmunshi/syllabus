@@ -132,7 +132,7 @@ Not everyone uses a mouse. Some users will prefer a keyboard, where they can hit
 ```css
 .btn:hover,
 .btn:focus {
-  background: #ef7f52;
+  background: #ef7f54;
 }
 ```
 
