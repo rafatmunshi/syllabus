@@ -45,6 +45,7 @@ module.exports = {
       "fundamentals/other-resources/challenges",
     ],
   },
+  Welcome: ["welcome/preparation", "welcome/welcome"],
   HTMLCSS: {
     Overview: ["html-css/index"],
     "Lesson 1": [

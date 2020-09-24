@@ -56,6 +56,11 @@ module.exports = {
               className: "outside-link",
             },
             {
+              to: "welcome/preparation",
+              label: "Welcome To CYF",
+              position: "left",
+            },
+            {
               to: "html-css/index",
               label: "HTML-CSS",
               position: "left",
