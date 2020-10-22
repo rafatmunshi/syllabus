@@ -291,6 +291,10 @@ module.exports = {
       "finalproject/demoday/practice-day",
     ],
   },
+  Git: {
+    Overview: ["git/index"],
+    Lesson: ["git/lesson", "git/instructors", "git/homework", "git/prework"],
+  },
   Deployment: {
     Overview: [
       "workshops/deployment/index",

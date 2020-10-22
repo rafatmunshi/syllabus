@@ -56,6 +56,11 @@ module.exports = {
               className: "outside-link",
             },
             {
+              to: "git/index",
+              label: "Git",
+              position: "left",
+            },
+            {
               to: "html-css/index",
               label: "HTML-CSS",
               position: "left",
